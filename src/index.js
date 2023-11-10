@@ -4,10 +4,10 @@
 
  const playlists= [
     {
-      id : 1,
-      nome: "Lush Lofi",
-      capa: '../images/sunset_lofi.jpg',
-      musicas: [
+      "id" : 1,
+      "nome": "Lush Lofi",
+      "capa": "../images/sunset_lofi.jpg",
+      "musicas": [
         1,
         2,
         3,
@@ -16,10 +16,10 @@
       ]
     },
     {
-      id: 2,
-      nome: "Chill Lofi Beats",
-      capa: '../images/lazy_lofi.jpg',
-      musicas: [
+      "id": 2,
+      "nome": "Chill Lofi Beats",
+      "capa": "../images/lazy_lofi.jpg",
+      "musicas": [
         6,
         7,
         8,
@@ -28,10 +28,10 @@
       ]
     },
     {
-      id: 3,
-      nome: "Lofi Beats",
-      capa: '../images/aesthetic_lofi.png',
-      musicas: [
+      "id": 3,
+      "nome": "Lofi Beats",
+      "capa": "../images/aesthetic_lofi.png",
+      "musicas": [
         1,
         2,
         3,
@@ -40,10 +40,10 @@
       ]
     },
     {
-      id: 4,
-      nome: "Lofi",
-      capa: '../images/new_york.jpg',
-      musicas: [
+      "id": 4,
+      "nome": "Lofi",
+      "capa": "../images/new_york.jpg",
+      "musicas": [
         3,
         2,
         1,
@@ -52,10 +52,10 @@
       ]
     },
     {
-      id: 5,
-      nome: "Chill Lofi Study",
-      capa: '../images/lofi_girl.jpg',
-      musicas: [
+      "id": 5,
+      "nome": "Chill Lofi Study",
+      "capa": "../images/lofi_girl.jpg",
+      "musicas": [
         4,
         5,
         1,
@@ -64,10 +64,10 @@
       ]
     },
     {
-      id: 6,
-      nome: "Study Lofi",
-      capa: '../images/study_lofi.jpg',
-      musicas: [
+      "id": 6,
+      "nome": "Study Lofi",
+      "capa": "../images/study_lofi.jpg",
+      "musicas": [
         10,
         1,
         2,
@@ -76,10 +76,10 @@
       ]
     },
     {
-      id: 7,
-      nome: "Lofi Rain",
-      capa: '../images/R.jpeg',
-      musicas: [
+      "id": 7,
+      "nome": "Lofi Rain",
+      "capa": "../images/R.jpeg",
+      "musicas": [
         10,
         9,
         8,
@@ -88,10 +88,10 @@
       ]
     },
     {
-      id: 8,
-      nome: "Relaxing Music",
-      capa: '../images/capa-lofi.jpeg',
-      musicas: [
+      "id": 8,
+      "nome": "Relaxing Music",
+      "capa": "../images/capa-lofi.jpeg",
+      "musicas": [
         1,
         5,
         3,
@@ -103,18 +103,18 @@
 
   const users =  [
     {
-      id: 1,
-      email: "email@mail.com",
-      password: "123456",
-      firstName: "Jose",
-      terms: true,
-      birthday: {
-        day: 12,
-        month: 4,
-        year: 2000
+      "id": 1,
+      "email": "email@mail.com",
+      "password": "123456",
+      "firstName": "Jose",
+      "terms": true,
+      "birthday": {
+        "day": 12,
+        "month": 4,
+        "year": 2000
       },
-      registerdate: "27/10/2023",
-      playlists: [
+      "registerdate": "27/10/2023",
+      "playlists": [
         2,
         3
       ]
@@ -123,74 +123,74 @@
 
   const musicas =  [
     {
-      idMusica: 1,
-      nomeMusica: "Lofi Study",
-      localMusica: "src/songs/lofi-study-112191.mp3",
-      dataCriacao: "27/12/2023",
-      duracao: "2:27"
+      "idMusica": 1,
+      "nomeMusica": "Lofi Study",
+      "localMusica": "src/songs/lofi-study-112191.mp3",
+      "dataCriacao": "27/12/2023",
+      "duracao": "2:27"
     },
     {
-      idMusica: 2,
-      nomeMusica: "Good Night",
-      localMusica: "src/songs/good-night-160166.mp3",
-      dataCriacao: "22/05/2023",
-      duracao: "2:27"
+      "idMusica": 2,
+      "nomeMusica": "Good Night",
+      "localMusica": "src/songs/good-night-160166.mp3",
+      "dataCriacao": "22/05/2023",
+      "duracao": "2:27"
     },
     {
-      idMusica: 3,
-      nomeMusica: "Coffee Chill Out",
-      localMusica: "src/songs/coffee-chill-out-15283.mp3",
-      dataCriacao: "02/07/2023",
-      duracao: "1:16"
+      "idMusica": 3,
+      "nomeMusica": "Coffee Chill Out",
+      "localMusica": "src/songs/coffee-chill-out-15283.mp3",
+      "dataCriacao": "02/07/2023",
+      "duracao": "1:16"
     },
     {
-      idMusica: 4,
-      nomeMusica: "Lofi Chill",
-      localMusica: "src/songs/lofi-chill-medium-version-159456.mp3",
-      dataCriacao: "18/10/2023",
-      duracao: "1:07"
+      "idMusica": 4,
+      "nomeMusica": "Lofi Chill",
+      "localMusica": "src/songs/lofi-chill-medium-version-159456.mp3",
+      "dataCriacao": "18/10/2023",
+      "duracao": "1:07"
     },
     {
-      idMusica: 5,
-      nomeMusica: "Ambient Lofi",
-      localMusica: "src/songs/lost-ambient-lofi-60s-10821.mp3",
-      dataCriacao: "06/01/2023",
-      duracao: "0:58"
+      "idMusica": 5,
+      "nomeMusica": "Ambient Lofi",
+      "localMusica": "src/songs/lost-ambient-lofi-60s-10821.mp3",
+      "dataCriacao": "06/01/2023",
+      "duracao": "0:58"
     },
     {
-      idMusica: 6,
-      nomeMusica: "Rain and Nostalgia",
-      localMusica: "src/songs/rain-and-nostalgia-version-60s-10820.mp3",
-      dataCriacao: "14/04/2023",
-      duracao: "1:10"
+      "idMusica": 6,
+      "nomeMusica": "Rain and Nostalgia",
+      "localMusica": "src/songs/rain-and-nostalgia-version-60s-10820.mp3",
+      "dataCriacao": "14/04/2023",
+      "duracao": "1:10"
     },
     {
-      idMusica: 7,
-      nomeMusica: "Science Documentary",
-      localMusica: "src/songs/science-documentary-169621.mp3",
-      dataCriacao: "16/06/2023",
-      duracao: "2:07"
+      "idMusica": 7,
+      "nomeMusica": "Science Documentary",
+      "localMusica": "src/songs/science-documentary-169621.mp3",
+      "dataCriacao": "16/06/2023",
+      "duracao": "2:07"
     },
     {
-      idMusica: 8,
-      nomeMusica: "Spirit Blossom",
-      localMusica: "src/songs/spirit-blossom-15285.mp3",
-      dataCriacao: "24/11/2023",
-      duracao: "1:48"
+      "idMusica": 8,
+      "nomeMusica": "Spirit Blossom",
+      "localMusica": "src/songs/spirit-blossom-15285.mp3",
+      "dataCriacao": "24/11/2023",
+      "duracao": "1:48"
     },
     {
-      idMusica: 9,
-      nomeMusica: "Empty Mind",
-      localMusica: "src/songs/empty-mind-118973.mp3",
-      dataCriacao: "20/02/2023",
-      duracao: "2:55"
+      "idMusica": 9,
+      "nomeMusica": "Empty Mind",
+      "localMusica": "src/songs/empty-mind-118973.mp3",
+      "dataCriacao": "20/02/2023",
+      "duracao": "2:55"
     },
     {
-      idMusica: 10,
-      nomeMusica: "The Weekend",
-      localMusica: "src/songs/the-weekend-117427.mp3",
-      dataCriacao: "30/08/2023",
-      duracao: "2:25"
+      "idMusica": 10,
+      "nomeMusica": "The Weekend",
+      "localMusica": "src/songs/the-weekend-117427.mp3",
+      "dataCriacao": "30/08/2023",
+      "duracao": "2:25"
     }
   ]
 
