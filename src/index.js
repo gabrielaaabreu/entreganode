@@ -227,8 +227,21 @@ app.use(express.urlencoded({extended: true}))
     res.json(musicas[index])
   })
 
-  //criar playlists, usuários e músicas
+  //buscar email
+  app.get('/users', (req, res) => {
+    const email = req.query.email
+    const user = users.find(user => user.email == email)
+    return res.json(user)
+  })
 
+  //buscar nome musica
+  app.get('/musicas2', (req, res) => {
+    const musicapesq = req.query.nomeMusica
+    const song = musicas.find(musica => musica.nomeMusica.toLowerCase().includes(musicapesq))
+    return res.json(song)
+  })
+
+  //criar playlists, usuários e músicas
   app.post('/playlists', (req,res) => {
     const newplaylist = req.body
     playlists.push(newplaylist)
